@@ -1,0 +1,58 @@
+3ad8 start_logger              160 ---- 2023/05/14 22:36:37.814 -------------------------------------------------
+3ad8 start_logger              166 Host process is 'cmd.exe' (pid 15064)
+3ad8 start_logger              170 DLL path is 'D:\Cmder\cmder\vendor\clink'
+3ad8 start_logger              185 Windows version 10.0.19043 (x64)
+3ad8 start_logger              188 Clink version 1.4.4.7fe1ca (x64)
+3ad8 hook_setter::hook_setter  159 >>> Started hook transaction.
+3ad8 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF6CAAA0000.
+3ad8 pe_info::iterate_imports  159 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+3ad8 find_iat                  124 Found import at 00007FF6CAAD3860 (value is 00007FFADBC1C3D0).
+3ad8 hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF6CAAA0000.
+3ad8 pe_info::iterate_imports  159 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+3ad8 find_iat                  124 Found import at 00007FF6CAAD34F8 (value is 00007FFADBBC15C0).
+3ad8 hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF6CAAA0000.
+3ad8 pe_info::iterate_imports  159 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+3ad8 find_iat                  124 Found import at 00007FF6CAAD3880 (value is 00007FFADBBDAB90).
+3ad8 hook_setter::commit       207 <<< Hook transaction committed.
+3ad8 hook_setter::hook_setter  159 >>> Started hook transaction.
+3ad8 hook_setter::detach_iat   359 Attempting to unhook 00007FFA9DC29710 from GetEnvironmentVariableW in IAT for module 00007FF6CAAA0000.
+3ad8 pe_info::iterate_imports  159 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+3ad8 find_iat                  124 Found import at 00007FF6CAAD3880 (value is 00007FFA9DC29710).
+3ad8 hook_setter::commit       207 <<< Hook transaction committed.
+3ad8 hook_setter::hook_setter  159 >>> Started hook transaction.
+3ad8 hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF6CAAA0000.
+3ad8 pe_info::iterate_imports  159 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+3ad8 find_iat                  124 Found import at 00007FF6CAAD34E0 (value is 00007FFADBCAEFD0).
+3ad8 hook_setter::commit       207 <<< Hook transaction committed.
+3ad8 hook_setter::hook_setter  159 >>> Started hook transaction.
+3ad8 hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF6CAAA0000.
+3ad8 pe_info::iterate_imports  159 Found import in 'api-ms-win-core-console-l2-2-0.dll'
+3ad8 find_iat                  124 Found import at 00007FF6CAAD3558 (value is 00007FFADBC2F4F0).
+3ad8 hook_setter::commit       207 <<< Hook transaction committed.
+3ad8 win_screen_buffer::begin  228 Using native terminal support; found 'ConEmuHk64.dll'.
+3ad8 reset_handle              144 resetting mismatched stdout handle
+3ad8 host_lua::load_scripts    158 Loaded 2 Lua scripts in 21 ms
+3ad8 =?                          0 Clink updater: too soon to check for updates (1684040864 vs 1684074999).
+3ad8 history_db::initialise   1264 master bank ctag: |CTAG_1684040863_1289132406_6208_0
+3ad8 history_db::compact      1526 History:  11 active, 0 deleted
+3ad8 history_db::compact      1526 History:  11 active, 1 deleted
+3ad8 history_db::compact      1526 History:  12 active, 1 deleted
+3ad8 history_db::compact      1526 History:  13 active, 1 deleted
+3ad8 history_db::compact      1526 History:  13 active, 2 deleted
+3ad8 history_db::compact      1526 History:  14 active, 2 deleted
+3ad8 history_db::compact      1526 History:  15 active, 2 deleted
+3ad8 history_db::compact      1526 History:  16 active, 2 deleted
+3ad8 history_db::compact      1526 History:  16 active, 3 deleted
+3ad8 history_db::compact      1526 History:  17 active, 3 deleted
+3ad8 history_db::compact      1526 History:  17 active, 4 deleted
+3ad8 history_db::compact      1526 History:  17 active, 5 deleted
+3ad8 history_db::compact      1526 History:  18 active, 5 deleted
+3ad8 history_db::compact      1526 History:  19 active, 5 deleted
+3ad8 history_db::compact      1526 History:  19 active, 6 deleted
+3ad8 history_db::compact      1526 History:  19 active, 7 deleted
+3ad8 history_db::compact      1526 History:  20 active, 7 deleted
+3ad8 history_db::compact      1526 History:  21 active, 7 deleted
+3ad8 history_db::compact      1526 History:  22 active, 7 deleted
+3ad8 history_db::compact      1526 History:  23 active, 7 deleted
+3ad8 history_db::compact      1526 History:  24 active, 7 deleted
+3ad8 history_db::compact      1526 History:  25 active, 7 deleted
